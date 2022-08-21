@@ -1,4 +1,7 @@
 
+-- DDL!(create, alter, drop, truncate)
+-- DATA DEFINITION LANGUAGE
+
 -- 테이블 지우기
 DROP TABLE SQLD.TB_DEPT_TEMP PURGE;	-- PURGE -> 그냥 지우면 휴지통으로 가는데 퍼지 쓰면 완전 삭제 가능!
 DROP TABLE SQLD.TB_EMP_TEMP PURGE;
